@@ -19,7 +19,7 @@ const uploadOnCloudinary = async (loaclFilePath)=>{
 
         // file has been uloaded succesfully
         console.log("file is uploaded on cloudinary", response, response.url);
-        return response.url;
+        return response;
     } catch (error) {
         fs.unlinkSync(loaclFilePath)   // remove the locally saved tem file as the upload opeartion got failed
         return null

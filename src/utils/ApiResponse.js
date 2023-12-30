@@ -6,3 +6,5 @@ class ApiResonse{
         this.success = statusCode     // statuscode <  400
     }
 }
+
+export {ApiResonse};
