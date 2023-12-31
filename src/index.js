@@ -3,7 +3,7 @@ import dotenv from "dotenv"
 import connectDB from "./db/indexdp.js";
 import { app } from "./app.js";
 dotenv.config({
-    path : './env'                // added some code in package.json file in dev
+    path : './.env'                // added some code in package.json file in dev
 })
 
 connectDB()
